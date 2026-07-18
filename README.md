@@ -17,9 +17,15 @@ A curated, living list of real communities, tools, and learning resources for an
   - [Editor Extensions & Secondary Tools](#editor-extensions--secondary-tools)
   - [CLI & Terminal Coding Agents](#cli--terminal-coding-agents)
   - [Model Access, Routing & Local Models](#model-access-routing--local-models)
+  - [Personal AI Agent Platforms](#personal-ai-agent-platforms)
+- [AI Video & Voice Generation](#ai-video--voice-generation)
+  - [AI Video](#ai-video)
+  - [AI Voice](#ai-voice)
 - [Connectors, MCP & OAuth for Your Agent](#connectors-mcp--oauth-for-your-agent)
 - [Security Topics](#security-topics)
 - [Agent Skills: Getting Started](#agent-skills-getting-started)
+  - [Popular community skills to try](#popular-community-skills-to-try)
+  - [Where to find more skills (marketplaces & directories)](#where-to-find-more-skills-marketplaces--directories)
 - [Books & Further Reading](#books--further-reading)
 - [Contributing / Keeping This List Active](#contributing--keeping-this-list-active)
 
@@ -114,9 +120,11 @@ SF Bay Area–based Meetup groups worth joining, verified directly against their
 - **[AI Builders and Learners SF](https://www.meetup.com/ai-builders-and-learners-sf/)** — ~2,900 members, 4.7★ (149 reviews). "A passionate community dedicated to building and learning about artificial intelligence," covering ML, LLMs, deep learning, MLOps, Python, computer vision, and NLP. Runs a **weekly virtual "AI Build & Learn" stream** (Fridays, 12:00 PM PDT) on rotating topics, plus a **monthly AI book club**. Organized by Sage Elliott; hosts both SF-local and fully virtual sessions.
 - **[Silicon Valley Generative AI ~ The AI Collective Network](https://www.meetup.com/silicon-valley-generative-ai/)** — ~4,600 members, 4.5★ (350 reviews). A generative-AI-focused community for professionals, researchers, and founders, part of The AI Collective network. Runs **bi-weekly virtual paper-reading sessions** (in partnership with Boulder Data Science) plus **monthly talks** from researchers, founders, and practitioners covering technical topics, applications, and startup pitches. Organized by Matt White.
 - **[Bay Area Content Marketing](https://www.meetup.com/bay-area-content-marketing/)** — ~4,200 members, 4.8★ (1,026 reviews), running since 2015. A general marketing (not AI-specific) community that has leaned increasingly into AI-assisted content workflows in its programming. Mixes **virtual talks** with occasional **in-person Bay Area networking events**. Organized by Dennis Shiao. Worth it if your vibe-coding projects lean toward content, marketing, or growth tooling rather than pure engineering.
+- **[Silicon Valley Startup: Idea to IPO](https://www.meetup.com/silicon-valley-startup-idea-to-ipo/)** — ~30,900 members, 4.5★ (3,730 ratings). Palo Alto–based, part of a global "Idea to IPO" network of 160 meetup groups, for entrepreneurs, VCs, angel investors, and startup professionals. Runs **both online and in-person events** — VC panels (e.g. "What's Hot, What's Not"), fundraising/crowdfunding workshops, networking mixers, and watch parties — with 80+ events typically scheduled at once, making it one of the most active groups on this list. Organized by Rohit "Ray" A. Not AI-specific, but a strong pick if you're vibe-coding toward an actual startup and want funding/go-to-market guidance alongside the build side.
+- **[BayNode — The Bay Area Node.js Meetup](https://www.meetup.com/baynode/)** — ~1,950 members, 4.6★ (240 reviews), Mountain View. "A community focused node.js meetup" running **"Node Night"** talk events (2–3 talks per session, food & drinks, member speakers prioritized) plus an unstructured social called **"Beer.node."** Traditionally in-person, though recent sessions have run online via Zoom. Organized by Jimmy Guerrero. Not AI-specific, but the JS/Node ecosystem underpins most of the vibe-coding tools in this guide — useful if you want to go deeper on the actual engineering under the hood.
 - **[Hacker Dojo](https://www.meetup.com/hackerdojo/)** — ~19,400 members, 4.7★ (3,107 reviews). **In-person only** — a 501(c)(3) nonprofit hackerspace/community center at 855 Maude Ave, Mountain View, CA, open 24/7. "A location for Startups, Events, Lectures, Hackathons, DevHouses, tinkering, brainstorming, co-working, and more." Extremely active: over a hundred events scheduled at any given time (2,500+ run historically), plus recurring staples like a weekly Happy Hour and Friday Night Socials. Good pick if you're actually in the Bay Area and want in-person building company rather than a virtual talk.
 
-Note: Microsoft Reactor SF and Hacker Dojo both had dozens of events on their public calendars at the time of writing; AI Builders and Learners SF, Silicon Valley Generative AI, and Bay Area Content Marketing did not have near-term events listed at the moment we checked. Meetup groups post new events on a rolling basis rather than far in advance, so check each group's page directly for the next scheduled date.
+Note: Microsoft Reactor SF, Silicon Valley Startup: Idea to IPO, and Hacker Dojo all had dozens of events on their public calendars at the time of writing; AI Builders and Learners SF, Silicon Valley Generative AI, and Bay Area Content Marketing did not have near-term events listed at the moment we checked. Meetup groups post new events on a rolling basis rather than far in advance, so check each group's page directly for the next scheduled date.
 
 ---
 
@@ -169,6 +177,7 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 | Roo Code | [roocode.com](https://roocode.com/) | Cline fork with extra agent/orchestration features |
 | Continue | [continue.dev](https://continue.dev/) | Open-source, model-agnostic AI coding extension |
 | Sourcegraph Cody | [sourcegraph.com/cody](https://sourcegraph.com/cody) | Codebase-aware assistant, strong for large/legacy codebases |
+| Graphify | [graphify.com](https://graphify.com/) | Open-source knowledge-graph "skill" for AI coding assistants — turns a codebase (plus docs, schemas, even video transcripts) into a queryable graph instead of relying on embeddings or grep. Works with Claude Code, Cursor, Codex, Gemini CLI, Copilot, and more. MIT-licensed, Y Combinator–backed. |
 | Supabase | [supabase.com](https://supabase.com/) | Not an IDE — the most commonly paired AI-friendly backend/database for vibe-coded apps |
 
 ### CLI & Terminal Coding Agents
@@ -181,6 +190,7 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 | Aider | [aider.chat](https://aider.chat/) | Long-running open-source pair-programming CLI, model-agnostic |
 | Goose | [github.com/block/goose](https://github.com/block/goose) | Block's open-source terminal agent |
 | OpenCode | [opencode.ai](https://opencode.ai/) | Open-source terminal coding agent |
+| Herdr | [herdr.dev](https://herdr.dev/) | Not an agent itself — a terminal multiplexer (like tmux, but agent-aware) for running Claude Code, Codex, OpenCode, and 15+ other agents side-by-side in one terminal, with persistent/remote sessions over SSH. Rust, single ~10MB binary, no telemetry, actively developed by a solo maintainer. |
 
 **For the long tail:** both [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) and [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) are actively maintained GitHub lists covering hundreds of additional tools — website builders, UI generators, automation platforms (Zapier, Make, n8n), agent frameworks (LangChain, CrewAI), and more.
 
@@ -189,6 +199,7 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 | Tool | Link | Notes |
 |---|---|---|
 | OpenRouter | [openrouter.ai](https://openrouter.ai) | Unified, OpenAI-compatible API gateway to 400+ models (GPT, Claude, Gemini, DeepSeek, Qwen, Llama, and more) behind one API key — useful for comparing or switching models without juggling separate provider accounts. Includes a rotating set of free-tier models. |
+| OmniRoute | [omniroute.online](https://omniroute.online/) · [GitHub](https://github.com/diegosouzapw/OmniRoute) | Free, MIT-licensed, self-hosted AI gateway — runs on your own machine, exposes one local OpenAI-compatible endpoint, and routes across 230+ providers (90+ with free tiers). Plugs straight into Claude Code, Codex, Cursor, Cline, and Copilot. Includes an aggressive token-compression stack (claims 15–95% reduction) and automatic fallback when a provider hits its rate limit. Zero telemetry, local-first. |
 | Ollama | [ollama.com](https://ollama.com/) | The simplest way to run open-weight models locally, including Chinese open-weight models, e.g. `ollama run qwen3.5`, `ollama run deepseek-v3.2`, `ollama run glm-5` |
 | LM Studio | [lmstudio.ai](https://lmstudio.ai/) | GUI alternative to Ollama for running local models, if you'd rather not use the command line |
 
@@ -198,6 +209,42 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 - [Ollama's model library](https://ollama.com/library) — search "qwen," "deepseek," "kimi," or "glm" to see available local model sizes and hardware requirements before downloading. Check sizes first: full flagship checkpoints can run 600GB+; most people should start with a smaller distilled variant that actually fits their machine.
 
 **Already covered elsewhere in this guide:** [Replit](#cloud--browser-ides--no-code-app-builders) and [Lovable](#cloud--browser-ides--no-code-app-builders) under Cloud/Browser IDEs, [OpenCode](#cli--terminal-coding-agents) under CLI agents.
+
+### Personal AI Agent Platforms
+
+A different category from the IDEs above: self-hosted "personal assistant" agents that run on your own machine and talk to you through the messaging apps you already use (WhatsApp, Telegram, Discord, Slack, etc.) rather than living inside an editor.
+
+| Platform | Link | Notes |
+|---|---|---|
+| OpenClaw | [openclaw.ai](https://openclaw.ai/) · [GitHub](https://github.com/openclaw/openclaw) | Created by Peter Steinberger (formerly Clawdbot/Moltbot). Open-source, self-hosted, 50+ channel integrations, and takes real actions — shell commands, browser automation, email, calendar, files. One of the fastest-growing repos on GitHub (340K+ stars in under 5 months). Community: see [Friends of the Crustacean](#discord-servers) in the Discord list above. |
+| QwenPaw | [qwenpaw.agentscope.io](https://qwenpaw.agentscope.io/) · [GitHub](https://github.com/agentscope-ai/QwenPaw) | Alibaba AgentScope team's answer to OpenClaw — same personal-agent-workstation idea, plus a built-in three-panel web IDE, kernel-level sandboxing/tool guards, and small local "Flash" models (2B/4B/9B) for running fully offline without a cloud API key. Apache 2.0. |
+| Hermes Agent | [hermes-agent.org](https://hermes-agent.org/) · [Nous Research](https://discord.gg/nousresearch) | Nous Research's open-source (MIT), self-hosted, model-agnostic agent — accumulates memory across sessions, runs scheduled tasks, and writes its own reusable skills over time. Model-agnostic by design: routes through OpenRouter, NVIDIA NIM, AWS Bedrock, or local Ollama, so you can run it on Llama, Mistral, GPT, Claude, or Gemini. Crossed 175K GitHub stars within 4 months of its Feb 2026 launch. |
+
+---
+
+## AI Video & Voice Generation
+
+Tools for adding generated video and voice to whatever you're vibe-coding — demos, marketing content, in-app avatars, narration, or dubbing.
+
+### AI Video
+
+| Tool | Link | Notes |
+|---|---|---|
+| Percify | [percify.io](https://percify.io/) | Turns a photo or script into a talking AI avatar video with voice cloning and lip-sync — no camera or studio needed. Free plan available; paid tiers from ~$7/month. |
+| WaveSpeed AI | [wavespeed.ai](https://wavespeed.ai/) | Unified API to 1000+ image/video/audio/3D models (Kling, Seedance, WAN, Vidu, Veo, and more) through one platform, optimized for low-latency inference. Pay-as-you-go, no subscription required; also ships a desktop app. |
+| Runway | [runwayml.com](https://runwayml.com/) | The most production-ready workspace for teams that need tight creative control and repeatable output — ads, client deliverables. |
+| Kling AI | [klingai.com](https://klingai.com/) | Strong for cinematic quality, longer clips, dialogue, and character consistency across multi-shot scenes. |
+| Pika | [pika.art](https://pika.art/) | Built for fast, daily social content (Reels/TikTok/Shorts) — Pikaframes, Pikaswaps, Pikaffects, and lip-synced "Pikaformance." Free tier included. |
+| Luma Dream Machine | [lumalabs.ai/dream-machine](https://lumalabs.ai/dream-machine) | Fast, cinematic image-to-video, typically short clips. |
+| Google Veo | [deepmind.google/models/veo](https://deepmind.google/models/veo/) | Frequently ranked best-overall for cinematic clips and generated audio in 2026 comparisons; accessible via the Gemini app, Google Flow, or the API through Google AI Studio. |
+
+### AI Voice
+
+| Tool | Link | Notes |
+|---|---|---|
+| ElevenLabs | [elevenlabs.io](https://elevenlabs.io/) | The industry-standard text-to-speech and voice-cloning platform — 11,000+ voice library, instant cloning from ~1 minute of audio, and a sub-500ms low-latency "Flash" model for real-time use. |
+| Cartesia | [cartesia.ai](https://cartesia.ai/) | Real-time-conversation-focused TTS (Sonic model) — ~90ms streaming latency, voice cloning from 10 seconds of audio, built for live voice agents rather than pre-rendered narration. |
+| Google Gemini TTS | [ai.google.dev](https://ai.google.dev/) | Often the cheapest high-quality option in per-token comparisons — roughly $0.09 for a 10-minute narration at published rates. |
 
 ---
 
@@ -236,6 +283,8 @@ Also see: [MCP connector — Claude Platform Docs](https://platform.claude.com/d
 | Glama | [glama.ai](https://glama.ai/mcp/servers) | Broad automated coverage |
 | awesome-mcp-servers | [github.com/wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers) | Community-curated list |
 | MCP Inspector | [github.com/modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | Official debugging tool for testing servers you build/connect |
+| Composio | [composio.dev](https://composio.dev/) | Hosted connector platform (not just a directory) — handles OAuth end-to-end and exposes thousands of AI-optimized, pre-built integrations (GitHub, Gmail, Slack, and more) as tool calls or MCP servers, so you skip building the auth flow yourself. 100,000+ developers reportedly on the platform. |
+| OpenConnector | [openconnector.dev](https://openconnector.dev/) · [GitHub](https://github.com/oomol-lab/open-connector) | Open-source alternative to Composio from OOMOL Lab — connect an app account once, then reuse it as a shared catalog of 1,000+ providers and prebuilt actions across MCP, SDK, CLI, or HTTP. Self-hostable, so credentials/scopes/run logs stay in a runtime you control rather than a third party's cloud. |
 
 ---
 
@@ -285,9 +334,31 @@ Per [Anthropic's official docs](https://platform.claude.com/docs/en/agents-and-t
 
 Anthropic ships four pre-built Skills via the API for document work — PowerPoint, Excel, Word, and PDF generation/editing. See the [quickstart](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart) and the [public Skills repo](https://github.com/anthropics/skills).
 
+### Popular community skills to try
+
+Beyond Anthropic's own pre-built Skills, a handful of community skills have taken off:
+
+- **[Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done)** — a spec-driven, meta-prompting/context-engineering system for Claude Code that keeps long, complex projects from degrading in quality as the context window fills up. Created by Lex Christopherson ("TÂCHES"/glittercowboy); 31,000+ GitHub stars, reportedly used by engineers at Amazon, Google, Shopify, and Webflow.
+- **[Caveman](https://github.com/juliusbrussee/caveman)** — cuts model output tokens by roughly 65–75% by having the agent "talk like a caveman": dropping filler words and hedging while keeping full technical accuracy. Ships with `caveman-commit` (terse commit messages), `caveman-review` (one-line code review comments), and a tool to compress your `CLAUDE.md` itself. Works across Claude Code, Codex, Gemini, Cursor, Windsurf, Cline, Copilot, and 30+ other agents.
+- **Superpowers** — a widely-cited multi-agent development methodology skill, ~41K GitHub stars.
+- **Frontend Design** — reportedly the most-installed design skill in the ecosystem (277K+ installs as of early 2026), for turning prompts into polished UI.
+- **Firecrawl** — a popular web-scraping skill for pulling structured page content into an agent's context.
+
+### Where to find more skills (marketplaces & directories)
+
+| Directory | Link | Notes |
+|---|---|---|
+| Claude Code Marketplaces | [claudemarketplaces.com](https://claudemarketplaces.com/) | Large, community-curated directory of skills, plugins, and MCP servers |
+| SkillsMP | [skillsmp.com](https://skillsmp.com/) | One of the largest skill indexes; search by keyword and inspect the GitHub source before installing |
+| Claude Skills Hub | [claudeskills.info](https://claudeskills.info/) | Smaller, editor-curated directory — good if you want fewer, vetted options over sheer volume |
+| Skills Playground | [skillsplayground.com](https://skillsplayground.com/) | Combined skills + MCP server directory |
+| skills.sh | [skills.sh](https://skills.sh/) | Marketplace + manager that lets an agent browse and self-install skills from within a session |
+
 ### Security note
 
-Anthropic's own guidance is explicit: **only use Skills from trusted sources.** A malicious Skill's instructions or bundled code can direct an agent to misuse tools or execute code beyond its stated purpose — including data exfiltration or unauthorized system access. Treat an unfamiliar Skill the way you'd treat an unfamiliar npm package: read it before you run it.
+Anthropic's own guidance is explicit: **only use Skills from trusted sources.** A malicious Skill's instructions or bundled code can direct an agent to misuse tools or execute code beyond its stated purpose — including data exfiltration or unauthorized system access. Treat an unfamiliar Skill the way you'd treat an unfamiliar npm package: read it before you run it. This goes double for skills pulled from the third-party marketplaces above — they're community-contributed and not vetted by Anthropic, so prefer skills with visible source, real GitHub stars/history, and a description that matches what the code actually does.
+
+**Scan before you install:** [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) is an open-source security scanner built specifically for AI agent skills (not general source code) — point it at a Git repo, URL, zip, or local directory and it statically checks for 68 vulnerability patterns across 17 categories (prompt injection, data exfiltration, privilege escalation, supply-chain risk, dangerous code, and more), scoring risk 0–100 without ever executing the skill. It can also run as an MCP server so agents like Claude Code can gate their own skill installs on the scan result. Worth running against anything you pull from a community marketplace above.
 
 ---
 
