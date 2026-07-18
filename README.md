@@ -26,6 +26,9 @@ A curated, living list of real communities, tools, and learning resources for an
   - [⌨️ CLI & Terminal Coding Agents](#cli--terminal-coding-agents)
   - [🔀 Model Access, Routing & Local Models](#model-access-routing--local-models)
   - [🤖 Personal AI Agent Platforms](#personal-ai-agent-platforms)
+  - [🧠 Agent Frameworks & SDKs](#agent-frameworks--sdks)
+  - [🗄️ Database & Backend for Vibe-Coded Apps](#database--backend-for-vibe-coded-apps)
+  - [⚙️ Automation & Workflow Platforms](#automation--workflow-platforms)
 - [🎬 AI Video & Voice Generation](#ai-video--voice-generation)
   - [🎥 AI Video](#ai-video)
   - [🎙️ AI Voice](#ai-voice)
@@ -94,6 +97,7 @@ Member counts are live snapshots pulled from Discord's public invite API on July
 |---|---|---|---|
 | Furlough | [discord.gg/furlough](https://discord.gg/furlough) | ~55,000 | Entrepreneurs collaborating on marketing, e-commerce, startups, AI |
 | Tech Startups | [discord.gg/startups](https://discord.gg/startups) | ~19,700 | Business-focused technologists building in public together |
+| [House of Vibes](#featured-community-house-of-vibes) | [discord.gg/2YWqwB78AT](https://discord.gg/2YWqwB78AT) | ~115 | This guide's featured community: vibe coders, AI builders, founders, creators, startup operators, and automation nerds. New and growing. |
 
 **Learn to code**
 
@@ -246,6 +250,7 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 | Tool | Link | Notes |
 |---|---|---|
 | OpenRouter | [openrouter.ai](https://openrouter.ai) | Unified, OpenAI-compatible API gateway to 400+ models (GPT, Claude, Gemini, DeepSeek, Qwen, Llama, and more) behind one API key: useful for comparing or switching models without juggling separate provider accounts. Includes a rotating set of free-tier models. |
+| Portkey | [portkey.ai](https://portkey.ai/) | A different kind of gateway than OpenRouter: sits in front of the provider keys you already hold and adds observability, guardrails, governance, and prompt management for running AI in production, rather than optimizing for breadth of model access. |
 | OmniRoute | [omniroute.online](https://omniroute.online/) · [GitHub](https://github.com/diegosouzapw/OmniRoute) | Free, MIT-licensed, self-hosted AI gateway: runs on your own machine, exposes one local OpenAI-compatible endpoint, and routes across 230+ providers (90+ with free tiers). Plugs straight into Claude Code, Codex, Cursor, Cline, and Copilot. Includes an aggressive token-compression stack (claims 15–95% reduction) and automatic fallback when a provider hits its rate limit. Zero telemetry, local-first. |
 | Ollama | [ollama.com](https://ollama.com/) | The simplest way to run open-weight models locally, including Chinese open-weight models, e.g. `ollama run qwen3.5`, `ollama run deepseek-v3.2`, `ollama run glm-5` |
 | LM Studio | [lmstudio.ai](https://lmstudio.ai/) | GUI alternative to Ollama for running local models, if you'd rather not use the command line |
@@ -266,6 +271,50 @@ A different category from the IDEs above: self-hosted "personal assistant" agent
 | OpenClaw | [openclaw.ai](https://openclaw.ai/) · [GitHub](https://github.com/openclaw/openclaw) | Created by Peter Steinberger (formerly Clawdbot/Moltbot). Open-source, self-hosted, 50+ channel integrations, and takes real actions: shell commands, browser automation, email, calendar, files. One of the fastest-growing repos on GitHub (340K+ stars in under 5 months). Community: see [Friends of the Crustacean](#discord-servers) in the Discord list above. |
 | QwenPaw | [qwenpaw.agentscope.io](https://qwenpaw.agentscope.io/) · [GitHub](https://github.com/agentscope-ai/QwenPaw) | Alibaba AgentScope team's answer to OpenClaw: same personal-agent-workstation idea, plus a built-in three-panel web IDE, kernel-level sandboxing/tool guards, and small local "Flash" models (2B/4B/9B) for running fully offline without a cloud API key. Apache 2.0. |
 | Hermes Agent | [hermes-agent.org](https://hermes-agent.org/) · [Nous Research](https://discord.gg/nousresearch) | Nous Research's open-source (MIT), self-hosted, model-agnostic agent: accumulates memory across sessions, runs scheduled tasks, and writes its own reusable skills over time. Model-agnostic by design: routes through OpenRouter, NVIDIA NIM, AWS Bedrock, or local Ollama, so you can run it on Llama, Mistral, GPT, Claude, or Gemini. Crossed 175K GitHub stars within 4 months of its Feb 2026 launch. |
+
+### 🧠 Agent Frameworks & SDKs
+
+For when you're building a custom agent rather than using an off-the-shelf tool:
+
+| Framework | Link | Notes |
+|---|---|---|
+| LangChain | [github.com/langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Python, 110k+ stars. The most widely adopted agent/LLM orchestration framework. |
+| CrewAI | [github.com/crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Python, 30k+ stars. Multi-agent orchestration built around role-based agents. |
+| Dify | [github.com/langgenius/dify](https://github.com/langgenius/dify) | Python/TS, 114k+ stars. Visual, low-code agent/workflow builder. |
+| Mastra | [github.com/mastra-ai/mastra](https://github.com/mastra-ai/mastra) | TypeScript, 10k+ stars. TypeScript-native agent framework, popular with JS/Node shops. |
+| Vercel AI SDK | [github.com/vercel/ai](https://github.com/vercel/ai) | TypeScript. The standard SDK for building AI features into web apps, streaming-first. |
+| LlamaIndex | [github.com/run-llama/llama_index](https://github.com/run-llama/llama_index) | Python. Focused on data indexing/retrieval for RAG-heavy agents. |
+| AutoGen | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) | Python, 40k+ stars. Microsoft's multi-agent conversation framework. |
+| Semantic Kernel | [github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | C#/Python, 25k+ stars. Microsoft's enterprise-oriented agent/orchestration SDK. |
+
+**Benchmarks worth knowing about:** [SWE-bench](https://github.com/princeton-nlp/SWE-bench) and [SWE-agent](https://github.com/SWE-agent/SWE-agent) are the standard benchmarks for measuring how well an agent fixes real GitHub issues; the [Aider Leaderboard](https://aider.chat/docs/leaderboards/) tracks how different models perform specifically at code-editing tasks.
+
+**Observability:** [Langfuse](https://langfuse.com/) is an open-source (YC-backed) tracing and evaluation platform for LLM apps: it captures every LLM call, tool execution, and retrieval step in a request so you can debug why an agent did what it did, track cost/latency, and run evals. Integrates with LangChain, LlamaIndex, the OpenAI SDK, and more; self-hostable.
+
+### 🗄️ Database & Backend for Vibe-Coded Apps
+
+Almost every vibe-coded app eventually needs a real backend:
+
+| Tool | Link | Notes |
+|---|---|---|
+| Supabase | [supabase.com](https://supabase.com/) | The most commonly paired backend for vibe-coded apps: Postgres, auth, storage, and edge functions in one. |
+| Neon | [neon.tech](https://neon.tech/) | Serverless Postgres, popular for instant branching (spin up a full DB copy per feature branch). |
+| PlanetScale | [planetscale.com](https://planetscale.com/) | Serverless MySQL, built around branching and schema-change safety. |
+| Xata | [xata.io](https://xata.io/) | Postgres with built-in search and analytics, aimed at reducing the number of separate services you need to wire up. |
+| Convex | [convex.dev](https://www.convex.dev/) | Backend-as-a-service built around reactive queries; a popular pairing with React-heavy vibe-coded frontends. |
+| Firebase | [firebase.google.com](https://firebase.google.com/) | Google's mobile/web backend platform (auth, Firestore, storage), tightly integrated with Firebase Studio and Google AI Studio above. |
+
+### ⚙️ Automation & Workflow Platforms
+
+| Platform | Link | Notes |
+|---|---|---|
+| Zapier | [zapier.com](https://zapier.com/) | The default no-code automation platform; huge app catalog, now AI-agent-aware. |
+| Make | [make.com](https://www.make.com/) | Visual, node-based automation builder; more flexible for complex workflows than Zapier. |
+| n8n | [n8n.io](https://n8n.io/) | Open-source, self-hostable automation tool: the go-to pick if you don't want a third party holding your workflow data. |
+| Lindy | [lindy.ai](https://www.lindy.ai/) | AI-agent-first automation, built around natural-language workflow creation rather than dragging nodes. |
+| Activepieces | [activepieces.com](https://www.activepieces.com/) | Open-source Zapier alternative, MIT-licensed. |
+
+*The three categories above are adapted from [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) (© Taskade, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)); descriptions condensed and edited for this guide.*
 
 ---
 
@@ -371,6 +420,15 @@ Drawing from [OWASP's AI Agent Security Cheat Sheet](https://cheatsheetseries.ow
 - **Default-deny tool access:** an agent should have to be explicitly granted a tool/connector, not get it by default.
 - **Review any connector/OAuth grant that includes write scopes** before turning it on, especially for connectors you didn't author yourself.
 - **Log agent actions** the same way you'd log a human user's actions on sensitive systems: you need an audit trail if something goes wrong.
+
+### 🧰 Tools that help
+
+- **[ToolHive](https://github.com/stacklok/toolhive)**: an open-source platform (built by Stacklok, the Kubernetes co-creators' company, maintained with Red Hat) for running MCP servers in isolated containers with only the permissions they need, secrets kept out of plaintext, plus a self-hostable gateway and registry. Addresses the mcp-remote-style risk above by containing what an untrusted MCP server can actually do.
+- **[Agentic Radar](https://github.com/splx-ai/agentic-radar)**: an open-source security scanner for agentic workflows built on LangGraph, CrewAI, n8n, OpenAI Agents, or AutoGen. Maps out your tools, MCP servers, and known vulnerabilities into a visual report; static analysis runs entirely locally, so your code isn't sent anywhere.
+
+*(See also [NVIDIA SkillSpector](#security-note) below, the equivalent scanner for Claude Skills specifically.)*
+
+*ToolHive, Agentic Radar, Portkey, and Langfuse (added throughout this guide) were surfaced via [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) (MIT License, © Mahsima Dastan); descriptions rewritten and re-verified independently for this guide.*
 
 ---
 
