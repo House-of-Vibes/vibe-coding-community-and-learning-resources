@@ -39,6 +39,7 @@ A curated, living list of real communities, tools, and learning resources for an
   - [🎯 VS Code's Scoped Instructions Files](#vs-codes-scoped-instructions-files)
   - [⭐ Popular community skills to try](#popular-community-skills-to-try)
   - [🛒 Where to find more skills (marketplaces & directories)](#where-to-find-more-skills-marketplaces--directories)
+- [📺 YouTube Channels Worth Watching](#youtube-channels-worth-watching)
 - [📚 Books & Further Reading](#books--further-reading)
 - [🤝 Contributing / Keeping This List Active](#contributing--keeping-this-list-active)
 
@@ -499,6 +500,78 @@ Only use skills from trusted sources. **A malicious skill's instructions or bund
 | Claude Skills Hub | [claudeskills.info](https://claudeskills.info/) | Smaller, editor-curated directory: good if you want fewer, vetted options over sheer volume |
 | Skills Playground | [skillsplayground.com](https://skillsplayground.com/) | Combined skills + MCP server directory |
 | skills.sh | [skills.sh](https://skills.sh/) | Marketplace + manager that lets an agent browse and self-install skills from within a session |
+
+---
+
+## 📺 YouTube Channels Worth Watching
+
+One table, one Category column, no priority tiers: pick by topic rather than by how "core" someone ranked it. Links go to the confirmed channel where we could verify the exact handle; otherwise they go to a YouTube search for the name so you can pick the right result yourself rather than follow a guessed link.
+
+| Channel | Category | Focus |
+|---|---|---|
+| [The AI Automators](https://www.youtube.com/@TheAIAutomators) | AI engineering & agent systems | Production agents, RAG, harnesses, deployment and security |
+| [AI Jason](https://www.youtube.com/@AIJasonZ) | AI engineering & agent systems | Building AI applications, experiments and product workflows |
+| [Protorikis](https://www.youtube.com/channel/UC8RHewAQcUjOu_MkjnTeBiw) | AI engineering & agent systems | Self-hosted AI, applications and practical developer tooling |
+| [Nearform](https://www.youtube.com/results?search_query=Nearform) | AI engineering & agent systems | Enterprise AI, data engineering and application modernization |
+| [Fireship](https://www.youtube.com/@Fireship) | AI engineering & agent systems | Concise software, framework and developer-tool coverage |
+| [The PrimeTime](https://www.youtube.com/results?search_query=The+PrimeTime) | AI engineering & agent systems | Software engineering commentary and ecosystem analysis |
+| [PY (The Commit Log)](https://www.youtube.com/results?search_query=PY+The+Commit+Log) | AI engineering & agent systems | Technical explainer videos |
+| [Anthony Sistilli](https://www.youtube.com/@AnthonySistilli) | AI engineering & agent systems | Software development and startup building |
+| [WesGPT](https://www.youtube.com/results?search_query=WesGPT) | AI engineering & agent systems | AI automation and workflow tooling |
+| [Matthew Berman](https://www.youtube.com/@matthew_berman) | AI engineering & agent systems | AI models, tools and emerging technology |
+| [AI Search](https://www.youtube.com/results?search_query=AI+Search+channel) | AI engineering & agent systems | Broad AI news and tool discovery |
+| [Cluely](https://www.youtube.com/results?search_query=Cluely) | AI engineering & agent systems | AI meeting-assistant product and marketing content |
+| [Licbe AI Media](https://www.youtube.com/results?search_query=Licbe+AI+Media) | AI engineering & agent systems | Generative video, AI influencers and content automation |
+| [Abandoned Films](https://www.youtube.com/results?search_query=Abandoned+Films) | AI engineering & agent systems | AI-generated cinematic media |
+| [Alberta Tech](https://www.youtube.com/results?search_query=Alberta+Tech) | AI engineering & agent systems | AI comedy and industry hot takes |
+| [Dwarkesh Patel](https://www.youtube.com/@DwarkeshPatel) | AI research, news & strategy | Deep interviews with AI researchers and technology leaders |
+| [AI News & Strategy Daily (Nate B. Jones)](https://www.youtube.com/@NateBJones) | AI research, news & strategy | Practical AI adoption, strategy and organizational workflows |
+| [Two Minute Papers](https://www.youtube.com/@TwoMinutePapers) | AI research, news & strategy | Accessible summaries of AI and graphics research |
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | AI research, news & strategy | Mathematical foundations of machine learning and computer science |
+| [Lex Fridman](https://www.youtube.com/@lexfridman) | AI research, news & strategy | Long-form technical and scientific interviews |
+| [David Shapiro](https://www.youtube.com/results?search_query=David+Shapiro+AI) | AI research, news & strategy | AI economics, automation and post-labor speculation |
+| [Nobel Prize](https://www.youtube.com/results?search_query=Nobel+Prize+official) | AI research, news & strategy | Scientific research and laureate presentations |
+| [Numberphile](https://www.youtube.com/@numberphile) | AI research, news & strategy | Mathematics relevant to computing and algorithms |
+| [Primer](https://www.youtube.com/results?search_query=Primer+channel+simulation) | AI research, news & strategy | Visual explanations of scientific and computational concepts |
+| [Veritasium](https://www.youtube.com/@veritasium) | AI research, news & strategy | Science, engineering and technology explainers |
+| [Zach Star](https://www.youtube.com/results?search_query=Zach+Star) | AI research, news & strategy | Mathematics, engineering and technical education |
+| [Low Level](https://www.youtube.com/results?search_query=Low+Level+programming+channel) | Software engineering & CS | Vulnerability research, low-level software and cybersecurity |
+| [NeetCodeIO](https://www.youtube.com/channel/UCevUmOfLTUX9MNGJQKsPdIA) | Software engineering & CS | Algorithms and computer-science interview material |
+| [Kun Chen](https://www.youtube.com/results?search_query=Kun+Chen+software+engineering) | Software engineering & CS | Senior engineering and large-company technical experience |
+| [KRAZAM](https://www.youtube.com/results?search_query=KRAZAM) | Software engineering & CS | Software-engineering satire with accurate industry observations |
+| [Tom Scott](https://www.youtube.com/@TomScottGo) | Software engineering & CS | Technology, infrastructure and unusual systems |
+| [Anders Lundbjörk](https://www.youtube.com/channel/UCWcG61Rl-Zrbvfq-o7JCQYw) | Software engineering & CS | Game development and technical projects |
+| [Austin Blake](https://www.youtube.com/results?search_query=Austin+Blake+robotics) | Software engineering & CS | Robotics and experimental engineering |
+| [The Practical Engineer](https://www.youtube.com/results?search_query=The+Practical+Engineer) | Software engineering & CS | Applied engineering and machine-building projects |
+| [AJ ONeal](https://www.youtube.com/results?search_query=AJ+ONeal) | Software engineering & CS | Software architecture, Proxmox and colocation |
+| [Amazon Web Services](https://www.youtube.com/@amazonwebservices) | Software engineering & CS | Cloud infrastructure and AWS reference material |
+| [DEF CON](https://www.youtube.com/@DEFCONConference) | Security, privacy & infra | Security conference talks and vulnerability research |
+| [Mental Outlaw](https://www.youtube.com/@MentalOutlaw) | Security, privacy & infra | Linux, privacy, self-hosting and security |
+| [Cybernews](https://www.youtube.com/@cybernews) | Security, privacy & infra | Cybersecurity news and investigations |
+| [Blackfiles](https://www.youtube.com/@Blackfiles-HD) | Security, privacy & infra | Hacker histories and security incidents |
+| [Gamers Nexus](https://www.youtube.com/@GamersNexus) | Security, privacy & infra | Hardware testing, thermals and reliability |
+| [Rob the Digital Rights Guy](https://www.youtube.com/channel/UCdN_mVpGNt8uCPhTG08BDsw) | Security, privacy & infra | Privacy, passwords, spam and digital rights |
+| [Rob VK8FOES](https://www.youtube.com/results?search_query=Rob+VK8FOES) | Security, privacy & infra | RF experimentation and telecommunications security |
+| [TFTC](https://www.youtube.com/results?search_query=TFTC+bitcoin+podcast) | Security, privacy & infra | Bitcoin, privacy and digital freedom |
+| [Finematics](https://www.youtube.com/results?search_query=Finematics) | Security, privacy & infra | Decentralized-finance systems and protocols |
+| [WIRED](https://www.youtube.com/@WIRED) | Security, privacy & infra | Broad technology interviews and explainers |
+| [SaaS CMO Pro](https://www.youtube.com/results?search_query=SaaS+CMO+Pro) | SaaS, startup & growth | B2B SaaS positioning, marketing and growth |
+| [TOPLINE](https://www.youtube.com/results?search_query=TOPLINE+GTM) | SaaS, startup & growth | GTM strategy for AI and software companies |
+| [The Startup Podcast](https://www.youtube.com/results?search_query=The+Startup+Podcast) | SaaS, startup & growth | Product, fundraising and scaling |
+| [Garry Tan](https://www.youtube.com/results?search_query=Garry+Tan) | SaaS, startup & growth | Startup execution, engineering and venture advice |
+| [Greg Isenberg](https://www.youtube.com/results?search_query=Greg+Isenberg) | SaaS, startup & growth | AI startup ideas and rapid product development |
+| [App Masters](https://www.youtube.com/results?search_query=App+Masters) | SaaS, startup & growth | Application growth, acquisition and monetization |
+| [Sequoia Capital](https://www.youtube.com/@sequoiacapital) | SaaS, startup & growth | Founder interviews and venture perspective |
+| [Starter Story](https://www.youtube.com/results?search_query=Starter+Story) | SaaS, startup & growth | Product concepts, acquisition and business case studies |
+| [More or Less Podcast](https://www.youtube.com/results?search_query=More+or+Less+Podcast) | SaaS, startup & growth | Technology, capital and Silicon Valley |
+| [Dreamit](https://www.youtube.com/results?search_query=Dreamit+Ventures) | SaaS, startup & growth | Enterprise pilots, healthtech and securetech startups |
+| [Dan Martell](https://www.youtube.com/@DanMartell) | SaaS, startup & growth | SaaS operations, founder productivity and AI businesses |
+| [My First Million](https://www.youtube.com/@MyFirstMillionPod) | SaaS, startup & growth | Startup ideas and business opportunities |
+| [All-In Podcast](https://www.youtube.com/@allin) | SaaS, startup & growth | Technology, venture capital, economics and politics |
+| [Open Residency](https://www.youtube.com/results?search_query=Open+Residency) | SaaS, startup & growth | Operator interviews and business execution |
+| [Morning Brew](https://www.youtube.com/@MorningBrew) | SaaS, startup & growth | Business and technology news |
+| [Ad World Prime](https://www.youtube.com/results?search_query=Ad+World+Prime) | SaaS, startup & growth | Advertising and marketing education |
+| [AdHacks](https://www.youtube.com/results?search_query=AdHacks) | SaaS, startup & growth | Paid advertising and agency growth |
 
 ---
 
