@@ -26,6 +26,8 @@ A curated, living list of real communities, tools, and learning resources for an
   - [⌨️ CLI & Terminal Coding Agents](#cli--terminal-coding-agents)
   - [🔀 Model Access, Routing & Local Models](#model-access-routing--local-models)
   - [🤖 Personal AI Agent Platforms](#personal-ai-agent-platforms)
+  - [🧑‍💼 AI Coworkers (Workplace Task Agents)](#ai-coworkers-workplace-task-agents)
+  - [👥 Human-Agent Collaboration Workspaces](#human-agent-collaboration-workspaces)
   - [🧠 Agent Frameworks & SDKs](#agent-frameworks--sdks)
   - [🗄️ Database & Backend for Vibe-Coded Apps](#database--backend-for-vibe-coded-apps)
   - [⚙️ Automation & Workflow Platforms](#automation--workflow-platforms)
@@ -272,6 +274,28 @@ A different category from the IDEs above: self-hosted "personal assistant" agent
 | OpenClaw | [openclaw.ai](https://openclaw.ai/) · [GitHub](https://github.com/openclaw/openclaw) | Created by Peter Steinberger (formerly Clawdbot/Moltbot). Open-source, self-hosted, 50+ channel integrations, and takes real actions: shell commands, browser automation, email, calendar, files. One of the fastest-growing repos on GitHub (340K+ stars in under 5 months). Community: see [Friends of the Crustacean](#discord-servers) in the Discord list above. |
 | QwenPaw | [qwenpaw.agentscope.io](https://qwenpaw.agentscope.io/) · [GitHub](https://github.com/agentscope-ai/QwenPaw) | Alibaba AgentScope team's answer to OpenClaw: same personal-agent-workstation idea, plus a built-in three-panel web IDE, kernel-level sandboxing/tool guards, and small local "Flash" models (2B/4B/9B) for running fully offline without a cloud API key. Apache 2.0. |
 | Hermes Agent | [hermes-agent.org](https://hermes-agent.org/) · [Nous Research](https://discord.gg/nousresearch) | Nous Research's open-source (MIT), self-hosted, model-agnostic agent: accumulates memory across sessions, runs scheduled tasks, and writes its own reusable skills over time. Model-agnostic by design: routes through OpenRouter, NVIDIA NIM, AWS Bedrock, or local Ollama, so you can run it on Llama, Mistral, GPT, Claude, or Gemini. Crossed 175K GitHub stars within 4 months of its Feb 2026 launch. |
+
+### 🧑‍💼 AI Coworkers (Workplace Task Agents)
+
+Different from the messaging-app-native personal assistants above: these are built to actually finish office work end-to-end (documents, spreadsheets, calendar, email) rather than just chat about it.
+
+| Tool | Link | Notes |
+|---|---|---|
+| Claude Cowork | [anthropic.com/product/claude-cowork](https://www.anthropic.com/product/claude-cowork) | Anthropic's official "hand Claude real work" mode: reads, edits, and creates files in folders you specify, connects to calendar, email, and messaging apps, and can now run scheduled tasks in the cloud even when your laptop is closed. Rolling out to Claude subscribers, Max first. |
+| OpenWorker | [github.com/andrewyng/openworker](https://github.com/andrewyng/openworker) | Open-source, local-first "desktop coworker" from Andrew Ng: returns finished deliverables rather than chat, checks in before major actions, and lets you bring your own API key for GPT, Claude, Gemini, or local/open-weight models via Ollama. Mac now, Windows planned. 3,300+ stars within days of its July 2026 launch. |
+| Open Cowork | [opencoworker.app](https://www.opencoworker.app/) | Open-source reimplementation of Claude Cowork's functionality for Windows and macOS. |
+| Coworker | [github.com/accomplish-ai/coworker](https://github.com/accomplish-ai/coworker) | Open-source desktop agent focused on local file management, document creation, and browser tasks. |
+
+### 👥 Human-Agent Collaboration Workspaces
+
+A newer category: shared team workspaces (chat, code, files) where AI agents are first-class participants alongside humans, not bolted-on chatbots.
+
+| Tool | Link | Notes |
+|---|---|---|
+| Buzz | [github.com/block/buzz](https://github.com/block/buzz) · [buzz.xyz](https://buzz.xyz/) | Block's (Jack Dorsey's company) open-source (Apache 2.0) "Slack and GitHub rival for AI agents": channels, threads, DMs, voice, code repos, and workflows, built on the Nostr protocol so every human and agent gets its own portable cryptographic identity rather than a platform-owned account. Model-agnostic; works with Claude Code, Codex, and Block's own Goose agent. Self-host or use Block's hosted version at buzz.xyz. |
+| Fastio | [fast.io](https://fast.io/) | Cloud storage built specifically for AI agents and humans to share: agents using Claude, Cursor, or other MCP clients get their own accounts and persistent storage to read, write, and organize files directly alongside human teammates, rather than being treated as second-class API callers. |
+
+*Taskade also offers real-time human+agent document co-editing in this same spirit; see [taskade.com](https://www.taskade.com/).*
 
 ### 🧠 Agent Frameworks & SDKs
 
