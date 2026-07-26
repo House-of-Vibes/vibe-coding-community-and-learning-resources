@@ -50,12 +50,12 @@ A curated, living list of real communities, tools, and learning resources for an
 ## 🏠 Featured Community: House of Vibes
 
 <p align="center">
-  <a href="https://discord.gg/2YWqwB78AT">
+  <a href="https://discord.gg/XSxsVQ7Asd">
     <img src="house-of-vibes-banner.png" width="700" alt="House of Vibes: Build Together. Vibe Together.">
   </a>
 </p>
 
-**[Join House of Vibes on Discord →](https://discord.gg/2YWqwB78AT)** (or visit [houseofvibes.app](https://houseofvibes.app/)): a free builder community for people using AI, automation, content, code, and internet-native tools to create what comes next. Built for vibe coders, AI builders, founders, creators, startup operators, and automation nerds who'd rather build alongside other people than alone. Runs a daily builder hangout, weekly demo days, a project showcase channel, and a gamified XP leaderboard. New and growing, and a good time to be an early regular rather than one of thousands.
+**[Join House of Vibes on Discord →](https://discord.gg/XSxsVQ7Asd)** (or visit [houseofvibes.app](https://houseofvibes.app/)): a free builder community for people using AI, automation, content, code, and internet-native tools to create what comes next. Built for vibe coders, AI builders, founders, creators, startup operators, and automation nerds who'd rather build alongside other people than alone. Runs a daily builder hangout, weekly demo days, a project showcase channel, and a gamified XP leaderboard. New and growing, and a good time to be an early regular rather than one of thousands.
 
 ---
 
@@ -100,7 +100,7 @@ Member counts are live snapshots pulled from Discord's public invite API on July
 |---|---|---|---|
 | Furlough | [discord.gg/furlough](https://discord.gg/furlough) | ~55,000 | Entrepreneurs collaborating on marketing, e-commerce, startups, AI |
 | Tech Startups | [discord.gg/startups](https://discord.gg/startups) | ~19,700 | Business-focused technologists building in public together |
-| [House of Vibes](#featured-community-house-of-vibes) | [discord.gg/2YWqwB78AT](https://discord.gg/2YWqwB78AT) | ~115 | This guide's featured community: vibe coders, AI builders, founders, creators, startup operators, and automation nerds. New and growing. |
+| [House of Vibes](#featured-community-house-of-vibes) | [discord.gg/XSxsVQ7Asd](https://discord.gg/XSxsVQ7Asd) | ~135 | This guide's featured community: vibe coders, AI builders, founders, creators, startup operators, and automation nerds. New and growing. |
 
 **Learn to code**
 
@@ -175,9 +175,9 @@ Vibe coding–specific conferences (smaller and newer than the industry events a
 ---
 
 <p align="center">
-  <a href="https://discord.gg/2YWqwB78AT"><img src="house-of-vibes-welcome.png" width="260" alt="Welcome to House of Vibes"></a>
+  <a href="https://discord.gg/XSxsVQ7Asd"><img src="house-of-vibes-welcome.png" width="260" alt="Welcome to House of Vibes"></a>
   <br>
-  <sub>🏠 New to all this? <a href="https://discord.gg/2YWqwB78AT">House of Vibes</a> is a free Discord for people building with AI who'd rather not do it alone: drop your project, get feedback, find collaborators.</sub>
+  <sub>🏠 New to all this? <a href="https://discord.gg/XSxsVQ7Asd">House of Vibes</a> is a free Discord for people building with AI who'd rather not do it alone: drop your project, get feedback, find collaborators.</sub>
 </p>
 
 ---
@@ -344,9 +344,9 @@ Almost every vibe-coded app eventually needs a real backend:
 ---
 
 <p align="center">
-  <a href="https://discord.gg/2YWqwB78AT"><img src="house-of-vibes-social-card.png" width="480" alt="House of Vibes, good ideas start here"></a>
+  <a href="https://discord.gg/XSxsVQ7Asd"><img src="house-of-vibes-social-card.png" width="480" alt="House of Vibes, good ideas start here"></a>
   <br>
-  <sub>🛋️ Building something with all these tools? Come show it off in <a href="https://discord.gg/2YWqwB78AT">House of Vibes</a>: weekly demo days, no gatekeeping.</sub>
+  <sub>🛋️ Building something with all these tools? Come show it off in <a href="https://discord.gg/XSxsVQ7Asd">House of Vibes</a>: weekly demo days, no gatekeeping.</sub>
 </p>
 
 ---
@@ -607,8 +607,8 @@ One table, one Category column, no priority tiers: pick by topic rather than by 
 ---
 
 <p align="center">
-  <a href="https://discord.gg/2YWqwB78AT">
-    <img src="house-of-vibes-join-cta.png" width="320" alt="Join House of Vibes: discord.gg/2YWqwB78AT">
+  <a href="https://discord.gg/XSxsVQ7Asd">
+    <img src="house-of-vibes-join-cta.png" width="320" alt="Join House of Vibes: discord.gg/XSxsVQ7Asd">
   </a>
 </p>
 
