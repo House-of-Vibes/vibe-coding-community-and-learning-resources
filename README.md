@@ -9,41 +9,42 @@
 
 A curated, living list of real communities, tools, and learning resources for anyone building software with AI, whether you've never written a line of code, you're a hobbyist "explorer," or you're a professional engineer adopting agentic tools.
 
-> **Last verified:** July 2026. Tool pricing, Discord member counts, and blog-sourced comparisons change fast. Treat anything without an official source link as a starting point for your own research, not gospel. See [Contributing](#contributing--keeping-this-list-active) if you spot something stale or missing.
+> **Last verified:** July 2026. Tool pricing, Discord member counts, and blog-sourced comparisons change fast. Treat anything without an official source link as a starting point for your own research, not gospel. See [Contributing](#-contributing--keeping-this-list-active) if you spot something stale or missing.
 
 ## Table of Contents
 
-- [🏠 Featured Community: House of Vibes](#featured-community-house-of-vibes)
-- [✨ What Is "Vibe Coding"?](#what-is-vibe-coding)
-- [💬 Communities: Discord, Slack, Reddit & Forums](#communities-discord-slack-reddit--forums)
-- [📅 Live Events, Meetups & Conferences](#live-events-meetups--conferences)
-  - [🎪 Conferences](#conferences)
-- [🌱 Learn to Vibe Code: Getting Started](#learn-to-vibe-code-getting-started)
-- [🛠️ IDEs & Tools](#ides--tools)
-  - [🖥️ Primary AI IDEs (Desktop)](#primary-ai-ides-desktop)
-  - [☁️ Cloud / Browser IDEs & No-Code App Builders](#cloud--browser-ides--no-code-app-builders)
-  - [🧰 Editor Extensions & Secondary Tools](#editor-extensions--secondary-tools)
-  - [⌨️ CLI & Terminal Coding Agents](#cli--terminal-coding-agents)
-  - [🔀 Model Access, Routing & Local Models](#model-access-routing--local-models)
-  - [🤖 Personal AI Agent Platforms](#personal-ai-agent-platforms)
-  - [🧑‍💼 AI Coworkers (Workplace Task Agents)](#ai-coworkers-workplace-task-agents)
-  - [👥 Human-Agent Collaboration Workspaces](#human-agent-collaboration-workspaces)
-  - [🧠 Agent Frameworks & SDKs](#agent-frameworks--sdks)
-  - [🗄️ Database & Backend for Vibe-Coded Apps](#database--backend-for-vibe-coded-apps)
-  - [⚙️ Automation & Workflow Platforms](#automation--workflow-platforms)
-- [🎬 AI Video & Voice Generation](#ai-video--voice-generation)
-  - [🎥 AI Video](#ai-video)
-  - [🎙️ AI Voice](#ai-voice)
-- [🔌 Connectors, MCP & OAuth for Your Agent](#connectors-mcp--oauth-for-your-agent)
-- [🔒 Security Topics](#security-topics)
-- [🧩 Agent Skills: Getting Started](#agent-skills-getting-started)
-  - [📄 Project Context Files (CLAUDE.md, AGENTS.md, GEMINI.md, and Friends)](#project-context-files-claudemd-agentsmd-geminimd-and-friends)
-  - [🎯 VS Code's Scoped Instructions Files](#vs-codes-scoped-instructions-files)
-  - [⭐ Popular community skills to try](#popular-community-skills-to-try)
-  - [🛒 Where to find more skills (marketplaces & directories)](#where-to-find-more-skills-marketplaces--directories)
-- [📺 YouTube Channels Worth Watching](#youtube-channels-worth-watching)
-- [📚 Books & Further Reading](#books--further-reading)
-- [🤝 Contributing / Keeping This List Active](#contributing--keeping-this-list-active)
+- [🏠 Featured Community: House of Vibes](#-featured-community-house-of-vibes)
+- [✨ What Is "Vibe Coding"?](#-what-is-vibe-coding)
+- [💬 Communities: Discord, Slack, Reddit & Forums](#-communities-discord-slack-reddit--forums)
+- [📅 Live Events, Meetups & Conferences](#-live-events-meetups--conferences)
+  - [🎪 Conferences](#-conferences)
+- [🌱 Learn to Vibe Code: Getting Started](#-learn-to-vibe-code-getting-started)
+- [🛠️ IDEs & Tools](#️-ides--tools)
+  - [🖥️ Primary AI IDEs (Desktop)](#️-primary-ai-ides-desktop)
+  - [☁️ Cloud / Browser IDEs & No-Code App Builders](#️-cloud--browser-ides--no-code-app-builders)
+  - [🧰 Editor Extensions & Secondary Tools](#-editor-extensions--secondary-tools)
+  - [⌨️ CLI & Terminal Coding Agents](#️-cli--terminal-coding-agents)
+  - [🔀 Model Access, Routing & Local Models](#-model-access-routing--local-models)
+  - [🤖 Personal AI Agent Platforms](#-personal-ai-agent-platforms)
+  - [🧑‍💼 AI Coworkers (Workplace Task Agents)](#‍-ai-coworkers-workplace-task-agents)
+  - [👥 Human-Agent Collaboration Workspaces](#-human-agent-collaboration-workspaces)
+  - [🧠 Agent Frameworks & SDKs](#-agent-frameworks--sdks)
+  - [🗄️ Database & Backend for Vibe-Coded Apps](#️-database--backend-for-vibe-coded-apps)
+  - [🚀 Build, Release & Ship It](#-build-release--ship-it)
+  - [⚙️ Automation & Workflow Platforms](#️-automation--workflow-platforms)
+- [🎬 AI Video & Voice Generation](#-ai-video--voice-generation)
+  - [🎥 AI Video](#-ai-video)
+  - [🎙️ AI Voice](#️-ai-voice)
+- [🔌 Connectors, MCP & OAuth for Your Agent](#-connectors-mcp--oauth-for-your-agent)
+- [🔒 Security Topics](#-security-topics)
+- [🧩 Agent Skills: Getting Started](#-agent-skills-getting-started)
+  - [📄 Project Context Files (CLAUDE.md, AGENTS.md, GEMINI.md, and Friends)](#-project-context-files-claudemd-agentsmd-geminimd-and-friends)
+  - [🎯 VS Code's Scoped Instructions Files](#-vs-codes-scoped-instructions-files)
+  - [⭐ Popular community skills to try](#-popular-community-skills-to-try)
+  - [🛒 Where to find more skills (marketplaces & directories)](#-where-to-find-more-skills-marketplaces--directories)
+- [📺 YouTube Channels Worth Watching](#-youtube-channels-worth-watching)
+- [📚 Books & Further Reading](#-books--further-reading)
+- [🤝 Contributing / Keeping This List Active](#-contributing--keeping-this-list-active)
 
 ---
 
@@ -100,7 +101,7 @@ Member counts are live snapshots pulled from Discord's public invite API on July
 |---|---|---|---|
 | Furlough | [discord.gg/furlough](https://discord.gg/furlough) | ~55,000 | Entrepreneurs collaborating on marketing, e-commerce, startups, AI |
 | Tech Startups | [discord.gg/startups](https://discord.gg/startups) | ~19,700 | Business-focused technologists building in public together |
-| [House of Vibes](#featured-community-house-of-vibes) | [discord.gg/XSxsVQ7Asd](https://discord.gg/XSxsVQ7Asd) | ~135 | This guide's featured community: vibe coders, AI builders, founders, creators, startup operators, and automation nerds. New and growing. |
+| [House of Vibes](#-featured-community-house-of-vibes) | [discord.gg/XSxsVQ7Asd](https://discord.gg/XSxsVQ7Asd) | ~135 | This guide's featured community: vibe coders, AI builders, founders, creators, startup operators, and automation nerds. New and growing. |
 
 **Learn to code**
 
@@ -263,7 +264,7 @@ A rough taxonomy (per [DataCamp](https://www.datacamp.com/blog/vibe-coding-guide
 - [The Best Chinese Open-Weight Models (Understanding AI)](https://www.understandingai.org/p/the-best-chinese-open-weight-models): a grounded, non-hype comparison of DeepSeek, Qwen, Kimi, and GLM against their US counterparts.
 - [Ollama's model library](https://ollama.com/library): search "qwen," "deepseek," "kimi," or "glm" to see available local model sizes and hardware requirements before downloading. Check sizes first: full flagship checkpoints can run 600GB+; most people should start with a smaller distilled variant that actually fits their machine.
 
-**Already covered elsewhere in this guide:** [Replit](#cloud--browser-ides--no-code-app-builders) and [Lovable](#cloud--browser-ides--no-code-app-builders) under Cloud/Browser IDEs, [OpenCode](#cli--terminal-coding-agents) under CLI agents.
+**Already covered elsewhere in this guide:** [Replit](#️-cloud--browser-ides--no-code-app-builders) and [Lovable](#️-cloud--browser-ides--no-code-app-builders) under Cloud/Browser IDEs, [OpenCode](#️-cli--terminal-coding-agents) under CLI agents.
 
 ### 🤖 Personal AI Agent Platforms
 
@@ -329,7 +330,21 @@ Almost every vibe-coded app eventually needs a real backend:
 | Convex | [convex.dev](https://www.convex.dev/) | Backend-as-a-service built around reactive queries; a popular pairing with React-heavy vibe-coded frontends. |
 | Firebase | [firebase.google.com](https://firebase.google.com/) | Google's mobile/web backend platform (auth, Firestore, storage), tightly integrated with Firebase Studio and Google AI Studio above. |
 
+### 🚀 Build, Release & Ship It
+
+The step most vibe-coding guides skip. Once a prompt-built project becomes a real app, something has to compile it, sign it, and get it into an app store or package registry, repeatedly, without a human babysitting each step:
+
+| Tool | Link | Notes |
+|---|---|---|
+| Fastlane | [fastlane.tools](https://fastlane.tools/) | The long-standing open-source standard for scripted mobile releases: automates beta distribution, screenshots, code signing, and App Store/Play Store submission from the command line. Free. |
+| Bitrise | [bitrise.io](https://bitrise.io/) | Mobile-focused CI/CD with 400+ maintained workflow steps covering Swift and Kotlin as well as React Native, Flutter, and Ionic. |
+| Codemagic | [codemagic.io](https://codemagic.io/) | Managed mobile CI/CD with unusually strong Flutter support: builds and tests on simulators, emulators, and real devices, then publishes, without you maintaining build servers. |
+| Runway | [runway.team](https://runway.team/) | Release *management* rather than CI: sits on top of whatever CI/CD you already run and coordinates a release from kickoff through store submission to staged rollout. Note: unrelated to the [Runway AI video tool](#-ai-video) further down this guide, despite sharing a name. |
+| AppRelay | [apprelay.io](https://apprelay.io/) | Local-first desktop console that unifies build, test, and release across 25+ toolchains and 27+ distribution targets, and ships an [MCP server](https://apprelay.io/mcp) so Claude Code or Claude Desktop can inspect projects, run builds, and publish, with the publish tools gated behind explicit confirmation. Free tier plus a one-time $99 license: no subscription, no account, no cloud sync. **Caveat:** new and independent, and we found no third-party coverage, so every claim here comes from the vendor's own site. |
+
 ### ⚙️ Automation & Workflow Platforms
+
+Two generations sit side by side here. The established tools (Zapier, Make, n8n) hand you a canvas and expect you to wire the steps up yourself. The newer cohort (CodeWords, String, Lindy) is prompt-first: you describe the automation in plain English and an agent builds and deploys it, which is much closer to the vibe-coding loop in the rest of this guide.
 
 | Platform | Link | Notes |
 |---|---|---|
@@ -338,8 +353,13 @@ Almost every vibe-coded app eventually needs a real backend:
 | n8n | [n8n.io](https://n8n.io/) | Open-source, self-hostable automation tool: the go-to pick if you don't want a third party holding your workflow data. |
 | Lindy | [lindy.ai](https://www.lindy.ai/) | AI-agent-first automation, built around natural-language workflow creation rather than dragging nodes. |
 | Activepieces | [activepieces.com](https://www.activepieces.com/) | Open-source Zapier alternative, MIT-licensed. |
+| CodeWords | [codewords.ai](https://www.codewords.ai/) | Prompt-first automation from London startup Agemo: describe what you want to its builder agent "Cody" and it writes, wires, and deploys the workflow across 3,000+ integrations, with no canvas to drag. Free tier (100 runs/month), paid from $39/month. Raised a $9M seed led by Visionaries in May 2026. |
+| String | [string.com](https://string.com/) | Pipedream's prompt-to-agent builder: describe an automation in plain English and String writes the actual code, then runs it on Pipedream's engine with 2,700+ integrations. The most code-transparent of the prompt-first tools here, so a good pick if you want to read and edit what the agent built. |
+| Gumloop | [gumloop.com](https://www.gumloop.com/) | Visual node canvas where any node can make an AI decision, plus 130+ integrations and direct GPT/Claude/Gemini calls. Y Combinator W24; raised a $50M Series B led by Benchmark. |
+| Relay.app | [relay.app](https://www.relay.app/) | Built around human-in-the-loop: you drop approval steps into a workflow so a teammate reviews before it continues. Worth a look if your automation touches anything irreversible (sends, payments, deletes). 100+ integrations. |
+| Relevance AI | [relevanceai.com](https://relevanceai.com/) | Sells "AI teammates" rather than pipelines: a no-code builder and template marketplace for role-shaped agents (sales, support, ops). Closest in spirit to Lindy above. $24M Series B led by Bessemer. |
 
-*The three categories above are adapted from [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) (© Taskade, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)); descriptions condensed and edited for this guide.*
+*The Agent Frameworks, Database & Backend, and Automation & Workflow categories above are adapted from [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) (© Taskade, licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)); descriptions condensed and edited for this guide.*
 
 ---
 
@@ -451,7 +471,7 @@ Drawing from [OWASP's AI Agent Security Cheat Sheet](https://cheatsheetseries.ow
 - **[ToolHive](https://github.com/stacklok/toolhive)**: an open-source platform (built by Stacklok, the Kubernetes co-creators' company, maintained with Red Hat) for running MCP servers in isolated containers with only the permissions they need, secrets kept out of plaintext, plus a self-hostable gateway and registry. Addresses the mcp-remote-style risk above by containing what an untrusted MCP server can actually do.
 - **[Agentic Radar](https://github.com/splx-ai/agentic-radar)**: an open-source security scanner for agentic workflows built on LangGraph, CrewAI, n8n, OpenAI Agents, or AutoGen. Maps out your tools, MCP servers, and known vulnerabilities into a visual report; static analysis runs entirely locally, so your code isn't sent anywhere.
 
-*(See also [NVIDIA SkillSpector](#security-note) below, the equivalent scanner for Claude Skills specifically.)*
+*(See also [NVIDIA SkillSpector](#️-security-note) below, the equivalent scanner for Claude Skills specifically.)*
 
 *ToolHive, Agentic Radar, Portkey, and Langfuse (added throughout this guide) were surfaced via [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) (MIT License, © Mahsima Dastan); descriptions rewritten and re-verified independently for this guide.*
 
